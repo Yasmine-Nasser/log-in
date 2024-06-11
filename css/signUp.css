@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,#6e7ae7, #c58cd2,#e4bbed , #5766e5);
+    font-family: 'Titillium Web', sans-serif;
+}
+/* -------------------------------------------------------------------------- */
+/*                             FORM SECTION                                   */
+/* -------------------------------------------------------------------------- */
+.smart {
+    box-shadow: -5px 2px 54px -9px #193b41a0;
+    border-top-left-radius: 20% ;
+    border-bottom-right-radius: 20% ;
+}
+h2{
+    color: #17a2b8;
+}
+
+
+button {
+    color: #fff;
+    background-color: transparent;
+    border-color: 3 solid #17a2b8;
+}

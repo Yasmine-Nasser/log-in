@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                BOOTSTRAP                                -->
+        <!-- ----------------------------------------------------------------------- -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                F-AWESOME                                -->
+        <!-- ----------------------------------------------------------------------- -->
+        <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.min.css">
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                   CSS                                   -->
+        <!-- ----------------------------------------------------------------------- -->
+        <link rel="stylesheet" href="./css/signUp.css">
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                               GOOGLE FONT                               -->
+        <!-- ----------------------------------------------------------------------- -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                  TITLE                                  -->
+        <!-- ----------------------------------------------------------------------- -->
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="login" id="logIn">
+            <div class="container text-center my-5">
+                <div class="smart p-5 w-50 m-auto">
+                    <h2 class="text-center mb-4 fs-2 fw-bolder text-white">Smart Login System</h2>
+                    <input id="enterYourEmail" class="form-control mt-4 p" placeholder="Enter your email" type="text">
+                    <input id="enterYourPass" class="form-control my-3" placeholder="Enter your password" type="password">
+                    <p id="wrongEmail" class="alert alert-danger d-none">Wrong email or password</p>
+                    <button onclick="logInBtn();" id="signIn" class="btn btn-outline-light w-50 my-3">Login</button>
+                    <p class="text-white">
+                    Don’t have an account?
+                    <a class="text-white" href="signUp.html">Sign Up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            forgot password
+        </button>-->
+
+        <!--<div class="forgot" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="dialog">
+                <div class="content">
+                    <div class="header">
+                        <div class="d-flex gap-2">
+                            <span style="width: 20px; height: 20px;" class="bg-danger rounded-circle"></span>
+                            <span style="width: 20px; height: 20px;" class="bg-warning rounded-circle"></span>
+                            <span style="width: 20px; height: 20px;" class="bg-success rounded-circle"></span>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <h2>Forgot your password?</h2>
+                        <p>Relax and try to remember your password</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <script src="./js/login.js"></script>
+    </body>
+</html>

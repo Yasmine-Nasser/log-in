@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right,#6e7ae7, #c58cd2,#e4bbed , #5766e5);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button {
+    margin-left: 70%;
+}
+
+.group {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    margin-top: 10%;
+    margin-left: 12%;
+    border-top-left-radius: 20% ;
+    border-bottom-right-radius: 20%;
+}
+
